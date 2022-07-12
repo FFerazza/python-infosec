@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'semgrep --help'
+                sh 'semgrep --help '
             }
         }
     }
